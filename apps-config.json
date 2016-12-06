@@ -1,0 +1,11 @@
+{
+    "dirs": {
+        "base": ".",
+        "apps": "/src",
+        "dev": "/build",
+        "dist": "/dist"
+    },
+    "apps": [
+        "example"
+    ]
+}
