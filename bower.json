@@ -1,0 +1,27 @@
+{
+  "name": "grunt-tasks-starter",
+  "description": "Starter kit para aplicaciones que usen grunt como su manejador de tareas",
+  "main": "Gruntfile.js",
+  "authors": [
+    "arkosnoemarenom"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "gruntjs",
+    "starter",
+    "kit",
+    "bower"
+  ],
+  "homepage": "https://github.com/arkosnoemarenom/grunt-tasks-starter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.7.0"
+  }
+}
