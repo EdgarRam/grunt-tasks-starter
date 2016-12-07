@@ -1,9 +1,9 @@
 {
     "dirs": {
-        "apps": "/src",
+        "apps": "./src",
         "base": ".",
-        "dev": "/build",
-        "dist": "/dist",
+        "dev": "./build",
+        "dist": "./dist",
         "grunt_tasks": "./grunt-tasks"
     },
     "server": {
