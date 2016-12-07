@@ -9,12 +9,12 @@
 
 
 
-        grunt.conf = grunt.file.readJSON( 'app-config.json' )
+        grunt.conf = grunt.file.readJSON( './apps-config.json' )
 
 
 
-        // grunt.registerTask( 'default', () => {
-        //     console.log( grunt.conf )
-        // } )
+        grunt.registerTask( 'default', () => {
+            console.log( JSON.stringify(grunt.conf, null, 4) )
+        } )
     }
 } )()
