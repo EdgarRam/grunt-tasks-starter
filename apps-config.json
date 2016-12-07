@@ -1,9 +1,15 @@
 {
     "dirs": {
-        "base": ".",
         "apps": "/src",
+        "base": ".",
         "dev": "/build",
-        "dist": "/dist"
+        "dist": "/dist",
+        "grunt_tasks": "./grunt-tasks"
+    },
+    "server": {
+        "hostname": "localhost",
+        "port": "9010",
+        "protocol": "http"
     },
     "apps": [
         "example"
