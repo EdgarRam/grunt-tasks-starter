@@ -35,7 +35,6 @@
     "grunt-contrib-stylus": "^1.2.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-html2js": "^0.3.6",
     "grunt-postcss": "^0.8.0",
     "load-grunt-tasks": "^3.5.2",
     "shelljs": "^0.7.5"
