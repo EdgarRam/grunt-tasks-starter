@@ -65,7 +65,8 @@ y se actualice el navegador en donde se está visualizando el sistema.
 
 #### 3 .- producción
 
-Esta hace lo mismo que `npm dev` pero con la pequeña diferencia de que no deja funcionando un _watcher_ que esté escuchando los cambios en los archivos, Esta
+Esta hace lo mismo que `npm dev` pero con la pequeña diferencia de que no deja
+funcionando un _watcher_ que esté escuchando los cambios en los archivos, Esta
 solo se encarga de construir todo y dejar los archivos listos para subirlos
 al servidor de producción. Para poder realizar esta tareas sólo será necesario
 ejecutar el siguiente comando:
