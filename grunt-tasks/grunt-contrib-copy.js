@@ -37,7 +37,7 @@
                     src: [
                         '**/*.{jpg,jpeg,png,gif,svg}'
                     ],
-                    dest: _grunt.appconf.dirs.dest + '/' + _app + '/images'
+                    dest: _grunt.appconf.dirs.dev + '/' + _app + '/images'
                 } ]
             }
         } )
