@@ -23,6 +23,9 @@
 
 
         _grunt.appconf.apps.forEach( ( _app ) => {
+
+
+            // app views
             api.config[ _app + '-views' ] = {
                 files:[ {
                     expand: true,
@@ -36,6 +39,15 @@
                     dest: _grunt.appconf.dirs.dev + '/' + _app + '/views',
                     ext: '.html',
                 } ]
+            }
+
+
+
+            // app index
+            api.config[ _app + '-index' ] = {
+                files: {
+                    [ `${_grunt.appconf.dirs.dev}/${_app}/index.html` ]: `${_grunt.appconf.dirs.apps}/${_app}/index.pug`
+                }
             }
         } )
 
