@@ -56,7 +56,7 @@ navegador.
 Para entrar en modo desarrollo se tiene que ejecutar el siguiente comando:
 
 ```bash
-npm dev
+npm run dev
 ```
 Este comando lanzará las tareas necesarias para que se pueda realizar cualquier
 modificación a cualquier parte de los archivo y que en automático se compilen
@@ -72,5 +72,5 @@ al servidor de producción. Para poder realizar esta tareas sólo será necesari
 ejecutar el siguiente comando:
 
 ```bash
-npm dist
+npm run dist
 ```
