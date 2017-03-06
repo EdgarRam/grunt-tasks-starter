@@ -17,8 +17,9 @@
 
 
         api.config.options = {
+            plugins: [ 'transform-react-jsx' ],
+            presets: [ 'es2015' ],
             sourceMap: false,
-            presets: [ 'es2015' ]
         }
 
 
@@ -30,6 +31,7 @@
                     cwd: _grunt.appconf.dirs.apps + '/' + _app + '/scripts',
                     src: [
                         '**/*.js',
+                        '**/*.jsx',
                         '!**/*.min.js'
                     ],
                     dest: _grunt.appconf.dirs.dev + '/' + _app + '/scripts',
